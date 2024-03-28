@@ -5258,8 +5258,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238358760}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.98, y: 1, z: -2.37}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -7.9134603, y: 1.0071445, z: -2.372198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422036357}
@@ -20605,12 +20605,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: 69e96f79-2bdf-4d7b-95c1-e0798cb1f34f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: f401ae26-94f6-4da4-a8a0-a0eb9001ffe0
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -20625,12 +20625,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 369cdccc-73fc-43bb-a43a-825c239b7b6d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 6c931be0-8849-485d-b30d-b069d206e8ec
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -28173,6 +28173,24 @@ Transform:
   m_Father: {fileID: 1854367308}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1306235611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1507238200112594, guid: ed7795f4883cb97468521311f1be4e22, type: 3}
+  m_PrefabInstance: {fileID: 779862745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1306235612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306235611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36eb8dc5938ab14b98f1fb986b7a321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  XROrigin: {fileID: 238358760}
 --- !u!1 &1309393549
 GameObject:
   m_ObjectHideFlags: 0
