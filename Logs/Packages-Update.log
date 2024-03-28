@@ -1,0 +1,10 @@
+
+=== Thu Mar 28 10:42:18 2024
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.9.0 to 1.15.1
+  com.unity.ide.vscode from version 1.2.3 to 1.2.4
+  com.unity.xr.oculus from version 1.10.0 to 1.11.0
