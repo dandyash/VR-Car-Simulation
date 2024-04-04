@@ -5310,8 +5310,8 @@ MonoBehaviour:
   m_Camera: {fileID: 963194227}
   m_OriginBaseGameObject: {fileID: 238358760}
   m_CameraFloorOffsetObject: {fileID: 422036356}
-  m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.1176
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 0.2
 --- !u!4 &238358762
 Transform:
   m_ObjectHideFlags: 0
@@ -5319,13 +5319,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238358760}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -7.9134603, y: 1.0071445, z: -2.372198}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3, y: 0.97999996, z: -0.099999905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422036357}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1406799792}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &238685942
 PrefabInstance:
@@ -16963,7 +16963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4929018535775754, guid: ed7795f4883cb97468521311f1be4e22, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4929018535775754, guid: ed7795f4883cb97468521311f1be4e22, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20486,7 +20486,7 @@ Transform:
   - {fileID: 1019886002}
   - {fileID: 35503807}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &954178675
 PrefabInstance:
@@ -28492,7 +28492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a36eb8dc5938ab14b98f1fb986b7a321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XROrigin: {fileID: 238358760}
+  XROrigin: {fileID: 0}
 --- !u!1 &1309393549
 GameObject:
   m_ObjectHideFlags: 0
@@ -30830,6 +30830,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1403147086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1406799792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4708528266998968, guid: ed7795f4883cb97468521311f1be4e22, type: 3}
+  m_PrefabInstance: {fileID: 779862745}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1411370734
 GameObject:
