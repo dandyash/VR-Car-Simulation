@@ -38774,9 +38774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2ce85011765c5439018ce172660d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorForce: 1000
-  breakForce: 3000
-  maxSteerAngle: 30
   frontLeftWheelCollider: {fileID: 651426785}
   frontRightWheelCollider: {fileID: 696799618}
   rearLeftWheelCollider: {fileID: 64776758}
@@ -38785,6 +38782,54 @@ MonoBehaviour:
   frontRightWheelTransform: {fileID: 779862748}
   rearLeftWheelTransform: {fileID: 779862747}
   rearRightWheelTransform: {fileID: 779862746}
+  AccelerationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Acceleration
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9f84e207-7684-484b-aac9-6327f4e76256
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  BrakingAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Braking
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a7a3593f-59b4-4b0e-9ec8-d5da060fac75
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  LeftRotationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Rotation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 31f3f952-7bb5-43bc-bd55-0ce1030417af
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 8248158260566104461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  RightRotationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Rotation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 747f7f0b-2fc2-4956-a7cc-b3bcf7ff7c2c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 5101698808175986029, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1700543975
 GameObject:
   m_ObjectHideFlags: 0

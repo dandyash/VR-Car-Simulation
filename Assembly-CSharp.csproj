@@ -53,6 +53,8 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\RandomCarScript.cs" />
+    <Compile Include="Assets\TrafficLight.cs" />
     <Compile Include="Assets\XR_Camera_Manager.cs" />
     <Compile Include="Assets\CarManager.cs" />
   </ItemGroup>
