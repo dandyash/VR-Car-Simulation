@@ -57,6 +57,7 @@
     <Compile Include="Assets\TrafficLight.cs" />
     <Compile Include="Assets\XR_Camera_Manager.cs" />
     <Compile Include="Assets\CarManager.cs" />
+    <Compile Include="Assets\ascript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
